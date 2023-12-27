@@ -105,7 +105,7 @@
     </style>
     <link rel="icon" type="image/png" href="/logo.png">
     <script>
-        let domain = exec(window.location.hostname);
+        var domain = exec(window.location.hostname);
         let dots = 0;
         setInterval(() => {
             document.title = "Coming Soon" + ".".repeat(dots);
@@ -125,6 +125,7 @@
         <h2>This website is currently under construction.</h2>
         <div id="progress"><div id="fill"><div id="barpercent"><h3>90%</h3></div></div></div>
         <div class="links">
+            <a href="https://nicolussi.dev" target="_blank"><ion-icon name="link-outline"></ion-icon></a>
             <a href="mailto:damiano@nicolussi.dev" target="_blank"><ion-icon name="mail"></ion-icon></a>
             <a href="https://github.com/damnicolussi" target="_blank"><ion-icon name="logo-github"></ion-icon></a>
             <a href="https://www.linkedin.com/in/damiano-nicolussi" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
